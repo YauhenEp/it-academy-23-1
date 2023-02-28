@@ -30,9 +30,11 @@ class Baby extends Girl {
 }
 
 const girl = new Girl('green', 'white')
+const girl1 = new Girl('green', 'white')
 console.log(girl);
 const baby = new Baby('green', 'white', 6)
 console.log(baby);
 
 baby.move()
 Baby.cry();
+console.log(Baby.toString())

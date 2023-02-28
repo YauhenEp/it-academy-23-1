@@ -1,21 +1,68 @@
 // Дан массив с элементами 2, 5, 9, 15, 0, 4. С помощью цикла for и оператора if выведите 
 // на экран столбец тех элементов массива, которые больше 3-х, но меньше 10.
 const arr = [2, 5, 9, 15, 0, 4];
+// for(let i = 0; i < arr.length; i++) {
+//     if(arr[i] > 3 && arr[i] < 10) {
+//         console.log(arr[i])
+//     }
+// }
 
+// let arr1New = arr.filter(number => number > 3 && number < 10).forEach(num => console.log(num));
+// console.log(arr1New)
 //  Дан массив с числами. Числа могут быть положительными и отрицательными. Найдите сумму 
 //  положительных элементов массива.
-const arr1 = [2, 5, 9, 15, 0, 4, 10, -13, -130, 12];
-
-
+// const arr1 = [2, 5, 9, 15, 0, 4, 10, -13, -130, 12];
+// let sum = 0;
+// for(let i = 0; i < arr1.length; i++) {
+//     if(arr1[i] > 0) {
+//         sum += arr1[i]
+//     }
+// }
+// console.log(sum);
+//
+// let sum1 = arr1.reduce((prev, cur) => {
+//     if(cur > 0) {
+//         return prev += cur;
+//     }
+//     return prev;
+// }, 0)
+// console.log(sum1);
 //  Дан массив с элементами 1, 2, 5, 9, 4, 13, 4, 10. С помощью цикла for и оператора if 
 //  проверьте есть ли в массиве элемент со значением, равным 4. Если есть - выведите на 
 //  экран 'Есть!' и выйдите из цикла. Если нет - ничего делать не надо.
 const arr2 = [1, 2, 5, 9, 4, 13, 4, 10];
+// for(let i = 0; i < arr2.length; i++) {
+//     if(arr2[i] === 4) {
+//         console.log('Have');
+//         break;
+//     }
+// }
+
+// const findNumber = arr2.find(number => number === 4)
+// console.log(findNumber)
 
 //  Дан массив числами, например: [10, 20, 30, 50, 235, 3000]. Выведите на экран только те 
 //  числа из массива, которые начинаются на цифру 1, 2 или 5.
 const arr3 = [10, 20, 30, 50, 235, 3000];
+// for(let i = 0; i < arr3.length; i++) {
+//     if(arr3[i].toString()[0] === '1' || arr3[i].toString()[0] === '2' || arr3[i].toString()[0] === '5') {
+//         console.log(arr3[i])
+//     }
+// }
+//
+// for(let i = 0; i < arr3.length; i++) {
+//     const expNum = +arr3[i].toExponential(1);
+//     if(+expNum.toFixed(0) === 1 || +expNum.toFixed(0)=== 2 || +expNum.toFixed(0) === 5) {
+//         console.log(arr3[i])
+//     }
+// }
 
+// for(let i = 0; i < arr3.length; i++) {
+//     const n = arr3[i].toString().match(/[^{1,2,5}]/);
+//     if(n['index'] === 1) {
+//         console.log(n['input'])
+//     }
+// }
 //  Дан массив с элементами 1, 2, 3, 4, 5, 6, 7, 8, 9. С помощью цикла for создайте строку 
 //  '-1-2-3-4-5-6-7-8-9-'.
 const arr4 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
