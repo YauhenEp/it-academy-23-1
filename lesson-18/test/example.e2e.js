@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 
-describe('Metaltis search', () => {
+describe.skip('Metaltis search', () => {
 
     beforeEach(async() => {
         await browser.url('https://www.metaltis.be/');

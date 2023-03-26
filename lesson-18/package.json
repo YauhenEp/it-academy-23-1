@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "wdio run ./wdio.conf.js",
+    "prewdio": "rimraf --glob ./allure-report/* ./allure-results/*",
+    "postwdio": "npx allure generate"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +22,8 @@
     "wdio-chromedriver-service": "^8.1.1"
   },
   "dependencies": {
-    "chai": "^4.3.7"
+    "allure-commandline": "^2.21.0",
+    "chai": "^4.3.7",
+    "rimraf": "^4.4.1"
   }
 }
