@@ -31,3 +31,26 @@ Then(/^I expect that element (.*) contain text (.*)$/, async function (selector,
     expect((await $$(selector)[0].getText()).toLowerCase()).to.contain(text)
 });
 
+When("I add value {string} to {locator}", async function (text, selector) {
+    await $(selector).waitForDisplayed();
+    await $(selector).addValue(text);
+})
+
+When("I wait for {int}", async function (seconds) {
+    const pause = seconds * 1000;
+    await browser.pause(pause);
+})
+
+When("I switch to frame {int}", async function(frameNumber) {
+    const frame = frameNumber - 1
+    console.log('frame ', frame)
+    await browser.switchToFrame(frame);
+})
+
+When("I click {locator} {int} element", async function(selector, number) {
+    const clickNumber = number - 1;
+    console.log(selector)
+    await $$(selector)[clickNumber].waitForClickable();
+    await $$(selector)[clickNumber].click();
+})
+

@@ -1,0 +1,21 @@
+{
+  "name": "e2e-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:parallel": "npx cypress-parallel -s cy:run -t 4 -m false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.9.0"
+  },
+  "dependencies": {
+    "cypress-parallel": "^0.9.0"
+  }
+}
