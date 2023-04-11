@@ -1,0 +1,6079 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "lat": {
+      "type": "boolean"
+    },
+    "country_code": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "require123",
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "integer"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "integer"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "integer"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "integer"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "integer"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "number"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "integer"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "integer"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "integer"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "integer"
+            },
+            "dhi": {
+              "type": "integer"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "integer"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "integer"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "integer"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "integer"
+            },
+            "vis": {
+              "type": "number"
+            },
+            "wind_spd": {
+              "type": "number"
+            },
+            "wind_cdir_full": {
+              "type": "string"
+            },
+            "slp": {
+              "type": "number"
+            },
+            "datetime": {
+              "type": "string"
+            },
+            "ts": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "integer"
+            },
+            "dewpt": {
+              "type": "number"
+            },
+            "solar_rad": {
+              "type": "number"
+            },
+            "wind_gust_spd": {
+              "type": "number"
+            },
+            "wind_dir": {
+              "type": "integer"
+            },
+            "ghi": {
+              "type": "number"
+            },
+            "dhi": {
+              "type": "number"
+            },
+            "precip": {
+              "type": "integer"
+            },
+            "weather": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "icon",
+                "description",
+                "code"
+              ]
+            },
+            "temp": {
+              "type": "number"
+            },
+            "app_temp": {
+              "type": "number"
+            },
+            "dni": {
+              "type": "number"
+            },
+            "pop": {
+              "type": "integer"
+            },
+            "ozone": {
+              "type": "number"
+            },
+            "snow_depth": {
+              "type": "integer"
+            },
+            "clouds_hi": {
+              "type": "integer"
+            },
+            "clouds_low": {
+              "type": "integer"
+            },
+            "clouds_mid": {
+              "type": "integer"
+            },
+            "timestamp_utc": {
+              "type": "string"
+            },
+            "timestamp_local": {
+              "type": "string"
+            },
+            "wind_cdir": {
+              "type": "string"
+            },
+            "rh": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "string"
+            },
+            "pres": {
+              "type": "number"
+            },
+            "uv": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "clouds",
+            "vis",
+            "wind_spd",
+            "wind_cdir_full",
+            "slp",
+            "datetime",
+            "ts",
+            "snow",
+            "dewpt",
+            "solar_rad",
+            "wind_gust_spd",
+            "wind_dir",
+            "ghi",
+            "dhi",
+            "precip",
+            "weather",
+            "temp",
+            "app_temp",
+            "dni",
+            "pop",
+            "ozone",
+            "snow_depth",
+            "clouds_hi",
+            "clouds_low",
+            "clouds_mid",
+            "timestamp_utc",
+            "timestamp_local",
+            "wind_cdir",
+            "rh",
+            "pod",
+            "pres",
+            "uv"
+          ]
+        }
+      ]
+    },
+    "lon": {
+      "type": "number"
+    },
+    "city_name": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "state_code": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "lat",
+    "country_code",
+    "data",
+    "lon",
+    "city_name",
+    "timezone",
+    "state_code"
+  ]
+}
