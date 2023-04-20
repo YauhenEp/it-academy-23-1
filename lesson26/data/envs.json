@@ -1,0 +1,6 @@
+{
+  "prod": "https://www.21vek.by/",
+  "stage": "https://www.stage.21vek.by/",
+  "test": "https://www.test.21vek.by/",
+  "dev": "https://www.dev.21vek.by/"
+}
