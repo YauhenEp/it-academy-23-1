@@ -6,3 +6,7 @@ new text
 new text
 new feature
 
+file 
+text
+file
+
