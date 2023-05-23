@@ -17,6 +17,10 @@ class Utils {
         }
         throw new Error(`Unable to find locator for '${element}'`);
     }
+
+    async getText() {
+
+    }
 }
 
 module.exports = Utils

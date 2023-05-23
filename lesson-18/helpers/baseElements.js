@@ -3,6 +3,11 @@ class BaseElements {
         await webElement.waitForClickable();
         await webElement.click();
     }
+
+    static async getText(element) {
+        await element.waitForDisplayd();
+        return element.getText()
+    }
 }
 
 module.exports = BaseElements;

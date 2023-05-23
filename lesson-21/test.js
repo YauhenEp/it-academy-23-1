@@ -10,7 +10,7 @@ const  { expect } = require('chai');
     await page.setViewport({ width: 1920, height: 1020});
 
     await page.goto('https://pptr.dev/');
-    // await page.setViewport({ width: 500, height: 300});
+    await page.setViewport({ width: 500, height: 300});
     await page.click('.clean-btn.toggleButton_gllP');
     const title = await page.evaluate(() => {
         return document.querySelector(".clean-btn.toggleButton_gllP").getAttribute("title");
