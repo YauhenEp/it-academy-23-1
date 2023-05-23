@@ -6,6 +6,10 @@ class SearchComponent {
     get 'Product Links'() {
         return '.result__item.result__item_product .product__title a.product__title-link'
     }
+
+    get 'New Link'() {
+        return '.result__item.result__item_product .product__title a.product__title-link'
+    }
 }
 
 module.exports = SearchComponent;
